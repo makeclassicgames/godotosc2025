@@ -11,4 +11,4 @@ Entre sus características destacan:
 
 Godot es ideal tanto para principiantes como para desarrolladores experimentados que buscan una alternativa libre y potente para crear videojuegos.
 
-![Motor Godot](/img/godot1.png)
+![Motor Godot](img/godot1.png)

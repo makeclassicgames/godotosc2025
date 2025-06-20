@@ -20,40 +20,40 @@ Godot ofrece varios modos de trabajo, accesibles desde la parte superior de la i
 - **Game**: Ejecuta el juego o escena actual para probar su funcionamiento.
 - **AssetLib**: Da acceso a la biblioteca de recursos en línea, donde puedes descargar assets y complementos para tu proyecto.
 
-![Imagen de los modos de la interfaz](/img/modos.png)
+![Imagen de los modos de la interfaz](img/modos.png)
 
 ### 2. Barra de Herramientas
 
 Permite acceder rápidamente a herramientas como mover, rotar, escalar y reproducir la escena.
 
-![Imagen de la barra de herramientas](/img/Tools.png)
+![Imagen de la barra de herramientas](img/Tools.png)
 
 ### 3. Árbol de Escena
 
 Muestra la jerarquía de nodos de la escena actual. Aquí puedes seleccionar, organizar y modificar nodos.
 
-![Imagen del árbol de escena](/img/arbol.png)
+![Imagen del árbol de escena](img/arbol.png)
 
 ### 4. Inspector
 
 Permite ver y modificar las propiedades del nodo seleccionado.
 
-![Imagen del inspector](/img/inspector.png)
+![Imagen del inspector](img/inspector.png)
 
 ### 5. Vista Principal
 
 Es el área central donde se visualiza y edita la escena, tanto en 2D como en 3D.
 
-![Imagen de la vista principal](/img/centro.png)
+![Imagen de la vista principal](img/centro.png)
 
 ### 6. Panel de Recursos
 
 Muestra los archivos y recursos del proyecto, como scripts, imágenes y escenas.
 
-![Imagen del panel de recursos](/img/filesystem.png)
+![Imagen del panel de recursos](img/filesystem.png)
 
 ### 7. Consola de Salida
 
 Muestra mensajes, advertencias y errores generados por el motor o los scripts.
 
-![Imagen de la consola de salida](/img/salida.png)
+![Imagen de la consola de salida](img/salida.png)

@@ -23,7 +23,7 @@ Godot ofrece varios renderizadores, cada uno adaptado a diferentes necesidades y
 
 
 
-![Listado Proyectos](/img/listado.png)
+![Listado Proyectos](img/listado.png)
 
 ## Estructura básica del proyecto
 

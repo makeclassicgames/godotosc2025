@@ -31,4 +31,4 @@ Player (CharacterBody2D)
 
 Con esto, tu jugador tendrá una representación visual y una forma de colisión básica lista para detectar interacciones en el juego.
 
-![Player1](/img/player1.png)
+![Player1](img/player1.png)
