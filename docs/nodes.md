@@ -1,5 +1,7 @@
 # Nodos
 
+Una vez vistas las escenas, vamos a pasar a ver que son los nodos.
+
 # Nodo en Godot
 
 Un **Nodo** en Godot es la unidad fundamental de la estructura de una escena. Cada nodo representa un objeto con una funcionalidad específica, como puede ser mostrar gráficos, reproducir sonidos, manejar lógica de juego, detectar colisiones, entre otros. Los nodos se organizan jerárquicamente en un árbol de nodos, donde cada nodo puede tener uno o varios nodos hijos, permitiendo así la composición y reutilización de funcionalidades.
