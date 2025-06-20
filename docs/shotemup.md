@@ -4,7 +4,7 @@ En este apartado, ya vamos a comenzar a ver como realizar nuestro juego; para es
 
 !!! info
     Puedes encontrar los recursos que vamos a necesitar para nuestro juego en el siguiente enlace:
-    [Recursos Juego](/assets/shotemup_resources.zip). Descomprime estos ficheros dentro de la carpeta de nuestro proyecto.
+    [Recursos Juego](assets/shotemup_resources.zip). Descomprime estos ficheros dentro de la carpeta de nuestro proyecto.
 
 Veamos nuestro juego:
 
