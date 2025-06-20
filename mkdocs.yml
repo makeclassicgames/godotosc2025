@@ -1,0 +1,36 @@
+site_name: Taller de Godot (OpenSouthCode 2025)
+theme: 
+  logo: /img/godotlogo.png
+  name: material
+  features:
+    - header.autohide
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+nav:
+  - Home: index.md
+  - Introducción:
+      - Introducción: intro.md
+      - Requisitos: req.md
+  - Instalación:
+      - Instalación de Godot: install.md
+  - Primeros pasos:
+      - Primeros pasos: firststeps.md
+  - Interfaz:
+      - Interfaz de Godot: interface.md
+  - Escenas:
+      - Escenas: scenes.md
+  - Nodos:
+      - Nodos: nodes.md
+  - ShotemUp:
+      - Introducción al ShotemUp: shotemup.md
+      - Escena Principal: main_scene.md
+      - Jugador: character.md
+      - Movimiento: movement.md
+      - Enemigo: enemy.md
+      - Respawn Enemigos: respawn_enemies.md
+      - Disparos: shots.md
+      - Colisiones: collisions.md
+  - Recursos: resources.md
