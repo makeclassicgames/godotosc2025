@@ -8,7 +8,7 @@ La interfaz de Godot está compuesta por varios paneles y herramientas que facil
 
 Contiene opciones como **Archivo**, **Editar**, **Escena**, **Proyecto** y **Ayuda**. Desde aquí se accede a funciones generales del editor.
 
-![Imagen de la barra de menú principal](/img/barramenu.png)
+![Imagen de la barra de menú principal](img/barramenu.png)
 
 ### 1.1 Modos de la Interfaz
 
