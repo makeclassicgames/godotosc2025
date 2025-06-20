@@ -1,6 +1,7 @@
 site_name: Taller de Godot (OpenSouthCode 2025)
 theme: 
-  logo: /img/godotlogo.png
+  logo: img/godotlogo.png
+  favicon: img/godotlogo.png
   name: material
   features:
     - header.autohide
