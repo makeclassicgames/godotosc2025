@@ -25,3 +25,5 @@ func _process(delta: float) -> void:
 		queue_free()
 ```
 
+!!! info
+	Es recomendable establecer esta escena a un grupo. Para ello lo añadimos en la última pestaña del editor a la derecha; en el campo de texto escribimos "enemy" y pulsamos el botón de añadir. Esto nos permitirá gestionar mejor los enemigos dentro del juego, por ejemplo, para detectar colisiones con los disparos del jugador.

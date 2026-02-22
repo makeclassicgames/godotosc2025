@@ -25,7 +25,7 @@ nav:
       - Escenas: scenes.md
   - Nodos:
       - Nodos: nodes.md
-  - ShotemUp:
+  - ShotemUp (2D):
       - Introducción al ShotemUp: shotemup.md
       - Escena Principal: main_scene.md
       - Jugador: character.md

@@ -25,7 +25,7 @@ La función tendrá el siguiente código:
 ```gdscript
 func _on_enemy_timer_timeout() -> void:
 	var enemy = enemy_scene.instantiate()
-	enemy.position = Vector2(randf()*640,-50)
+	enemy.position = Vector2(randf()*1000,-50)
 	enemy.add_to_group("enemy")
 	add_child(enemy)
 ```
