@@ -12,7 +12,7 @@ Para configurar los nodos básicos del jugador, sigue estos pasos:
 1. **Añadir un nodo Sprite2D**:
     - Haz clic derecho sobre el nodo `CharacterBody2D` y selecciona **Añadir nodo hijo**.
     - Busca y selecciona `Sprite2D`.
-    - En el panel de propiedades, asigna la textura que representará al jugador en la propiedad **Texture** (puedes arrastrar una imagen desde el panel de recursos; por ejemplo ```ship_002.png```).
+    - En el panel de propiedades, asigna la textura que representará al jugador en la propiedad **Texture** (puedes arrastrar una imagen desde el panel de recursos; por ejemplo ```ship_000.png```).
     - Ajusta la propiedad **Offset** si necesitas centrar el sprite respecto al nodo principal.
 
 2. **Añadir un nodo CollisionShape2D**:

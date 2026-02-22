@@ -1,4 +1,4 @@
-site_name: Taller de Godot (OpenSouthCode 2025)
+site_name: Taller de Godot (C.E. Desarrollo de Videojuegos Y Realidad Virtual)
 theme: 
   logo: img/godotlogo.png
   favicon: img/godotlogo.png
@@ -34,4 +34,8 @@ nav:
       - Respawn Enemigos: respawn_enemies.md
       - Disparos: shots.md
       - Colisiones: collisions.md
+  - 3D:
+      - Introducción a 3D: intro_3d.md
+  - VR:
+      - Introducción a VR: intro_vr.md
   - Recursos: resources.md

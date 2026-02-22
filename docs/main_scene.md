@@ -38,7 +38,7 @@ Vamos a añadir un fondo para nuestro juego.
 
 Para añadir una imagen de fondo, selecciona el nodo `Sprite2D` que creaste previamente. En el panel de propiedades, busca la propiedad **Texture**. Haz clic en el icono de carpeta junto a **Texture** y selecciona el archivo `space.png` desde tu sistema de archivos o la carpeta de recursos del proyecto.
 
-Esto hará que el nodo `Sprite2D` muestre la imagen `space.png` como fondo de la escena. Puedes ajustar la posición del sprite usando las propiedades de **Transform** si es necesario.
+Esto hará que el nodo `Sprite2D` muestre la imagen `fondo1.png` como fondo de la escena. Puedes ajustar la posición del sprite usando las propiedades de **Transform** si es necesario.
 
 Tu árbol de nodos seguirá igual, pero ahora el nodo `Sprite2D` mostrará la textura seleccionada:
 
