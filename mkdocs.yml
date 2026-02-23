@@ -36,6 +36,16 @@ nav:
       - Colisiones: collisions.md
   - 3D:
       - Introducción a 3D: intro_3d.md
+      - Luces, Camara y Nodos: lights_camera_nodes.md
+      - Nodos 3D vs Nodos 2D: nodes_3d_vs_2d.md
+      - GDash (Juego de plataformas 3D): 
+          - Juego Plataformas 3D: gdash.md
+          - Creación de Terreno: terrain.md
+          - Jugador: player.md
+          - Movimiento: movement_3d.md
+          - Trampas: traps.md
+          - Fin de la partida: game_over.md
+    
   - VR:
       - Introducción a VR: intro_vr.md
   - Recursos: resources.md
