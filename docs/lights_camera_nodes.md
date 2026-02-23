@@ -28,3 +28,5 @@ En Godot, los nodos son los bloques de construcción básicos de tus escenas. Pa
 - **Camera3D**: Para configurar la vista de tu escena.
 
 Es importante mencionar que los nodos en Godot pueden contener otros nodos, lo que te permite organizar tu escena de manera eficiente. Por ejemplo, puedes tener un nodo raíz que contenga varios nodos de objetos 3D, luces y cámaras.
+
+Cada nodo puede tener diferentes funcionalidades y propiedades, lo que te permite personalizar tu escena según tus necesidades. Puedes agregar scripts a los nodos para controlar su comportamiento y crear interactividad en tu juego.

@@ -40,6 +40,7 @@ nav:
       - Nodos 3D vs Nodos 2D: nodes_3d_vs_2d.md
       - GDash (Juego de plataformas 3D): 
           - Juego Plataformas 3D: gdash.md
+          - Creación del Proyecto: create_project.md
           - Creación de Terreno: terrain.md
           - Jugador: player.md
           - Movimiento: movement_3d.md
