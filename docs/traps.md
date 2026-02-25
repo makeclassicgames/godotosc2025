@@ -2,7 +2,7 @@
 
 En este capítulo se describen las trampas o pinchos, que son obstáculos comunes en los videojuegos. Se explicará cómo crear trampas utilizando el motor de juego Godot, en este caso serán los obstáculos que el jugador debe saltar para no perder. Para esto, se creará una nueva escena llamada `spike.tscn` que representará la trampa o pincho en el juego.
 
-En la escena `spike.tscn`, se agregará un nodo `StaticBody3D` como nodo raíz, que es un nodo estático que no se mueve pero puede detectar colisiones. Luego, se agregarán dos nodos hijos: un `CollisionShape3D` para definir la forma de colisión de la trampa y un `MeshInstance3D` para renderizar el modelo 3D de la trampa.
+En la escena `spike.tscn`, se agregará un nodo `Area3D` como nodo raíz, que es un nodo estático que no se mueve pero puede detectar colisiones. Luego, se agregarán dos nodos hijos: un `CollisionShape3D` para definir la forma de colisión de la trampa y un `MeshInstance3D` para renderizar el modelo 3D de la trampa.
 
 Para el caso de la `MeshInstance3D`, vamos a utilizar una forma de prisma triangular para representar el pincho.  Puedes crear esta forma usando la propiedad de `Mesh` del `MeshInstance3D` y seleccionando `New PrismMesh`. Luego, ajusta las propiedades del `PrismMesh` para obtener la forma deseada. En nuestro caso recomendamos configurar el `PrismMesh`con los siguientes valores: X e Y con 1 unidad y Z con 10 unidades. Esto creará un pincho con profundidad de 10 unidades, lo que lo hace lo suficientemente alto para que el jugador tenga que saltar sobre él.
 
