@@ -52,7 +52,7 @@ End (Node3D)
 
 Ahora que tenemos nuestro objetivo y el área de finalización configurados, vamos a implementar la lógica para detectar cuando el jugador entra en el área de finalización y ganar la partida. Para esto, vamos a agregar un script al nodo principal de la escena principal.
 
-Vamos a modificar el Script `main.gd` para agregar la lógica de victoria. Vamos a conectar la señal `body_entered` del nodo `Area3D` al método `_on_body_entered()`, que se encargará de detectar cuándo el jugador entra en el área de finalización. Si el jugador entra en el área de finalización, emitiremos una señal de victoria que detendrá el movimiento del jugador y mostrará un mensaje de "You Win!" al jugador. Para esto, sigue estos pasos:
+Vamos a modificar el Script `main.gd` para agregar la lógica de victoria. Vamos a conectar la señal `body_entered` del nodo `Area3D` al método `_on_body_entered()`, que se encargará de detectar cuándo el jugador entra en el área de finalización. Si el jugador entra en el área de finalización, emitiremos una señal de victoria que detendrá el movimiento del jugador y mostrará un mensaje de "Has Ganado!" al jugador. Para esto, sigue estos pasos:
 
 1. Selecciona el nodo `Area3D`en la jerarquia de nuestro objeto "finish" y en el panel de señales, conecta la señal `body_entered` al método `_on_finish_area_body_entered()`. Esto nos permitirá detectar cuándo el jugador entra en el área de finalización. El contenido de la función `_on_body_entered()` será el siguiente:
 
