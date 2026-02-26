@@ -10,7 +10,7 @@ Es importante mencionar que para poder trabajar con nodos 3D, es necesario tanto
 
 Recuerda que para el editor godot pueda trabajar en 3D, necesitarás trabajar en el modo 3D del editor que puedes encontrar en la parte superior del editor. Esto te permitirá manipular objetos en el espacio 3D y configurar las propiedades de los nodos 3D de manera adecuada.
 
-![Editor de Godot en modo 3D](img/editor3D.png)
+![Editor de Godot en modo 3D](../img/editor3D.png)
 
 Durante esta sección, veremos los diferentes nodos utilizados en escenas 3D y cómo se comparan con los nodos utilizados en escenas 2D. Es por ello, que es importante entender las diferencias entre ambos tipos de nodos para poder elegir el nodo adecuado para tu proyecto y crear escenas atractivas y funcionales.
 

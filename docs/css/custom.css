@@ -1,3 +1,7 @@
 article.md-content__inner p{
     text-align: justify;
 }
+
+article.md-content__inner ol li{
+        text-align: justify;
+}

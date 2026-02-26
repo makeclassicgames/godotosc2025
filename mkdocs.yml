@@ -37,17 +37,19 @@ nav:
       - Disparos: shots.md
       - Colisiones: collisions.md
   - 3D:
-      - Introducción a 3D: intro_3d.md
-      - Luces, Camara y Nodos: lights_camera_nodes.md
-      - Nodos 3D vs Nodos 2D: nodes_3d_vs_2d.md
+      - Introducción a 3D: 3d/intro_3d.md
+      - Luces, Camara y Nodos: 3d/lights_camera_nodes.md
+      - Nodos 3D vs Nodos 2D: 3d/nodes_3d_vs_2d.md
       - GDash (Juego de plataformas 3D): 
-          - Juego Plataformas 3D: gdash.md
-          - Creación del Proyecto: create_project.md
-          - Creación de Terreno: terrain.md
-          - Jugador: player.md
-          - Movimiento: movement_3d.md
-          - Trampas: traps.md
-          - Fin de la partida: game_over.md
+          - Juego Plataformas 3D: 3d/gdash.md
+          - Creación del Proyecto: 3d/create_project.md
+          - Creación de Terreno: 3d/terrain.md
+          - Jugador: 3d/player.md
+          - Movimiento: 3d/movement_3d.md
+          - Trampas: 3d/traps.md
+          - Fin de la partida: 3d/game_over.md
+          - UI: 3d/ui.md
+          - Win: 3d/win.md
     
   - VR:
       - Introducción a VR: intro_vr.md
