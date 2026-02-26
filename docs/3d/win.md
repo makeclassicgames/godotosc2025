@@ -44,8 +44,8 @@ Tras añadir el área la jerarquía del objeto `End`en la escena principal deber
 
 ```
 End (Node3D)
-├── Area3D
-│   └── CollisionShape3D (BoxShape3D)
+└── Area3D
+      └── CollisionShape3D (BoxShape3D)
 ```
 
 ## Condición de Victoria
