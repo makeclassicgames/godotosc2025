@@ -6,7 +6,8 @@ Creamos la siguiente lista de nodos para crear nuestro terreno:
 
 1. Creamos un nodo ```StaticBody3D``` y lo nombramos "Ground". Haciendo click derecho en el nodo raíz de nuestra escena y pulsando la opción "Add Child Node", buscamos "StaticBody3D" y lo seleccionamos. Luego, renombramos el nodo a "Ground" para identificarlo fácilmente como nuestro terreno.
 2. Añadiremos un nodo hijo de tipo ```CollisionShape3D``` para definir la forma de colisión del terreno. Para esto, seleccionamos el nodo "Ground", hacemos clic en "Add Child Node" y buscamos "CollisionShape3D". Luego, asignamos una forma de colisión adecuada, como un ```BoxShape3D```, para representar el suelo.
-3. También añadiremos un nodo hijo de tipo ```MeshInstance3D``` para darle una apariencia visual al terreno. Para esto, seleccionamos el nodo "Ground", hacemos clic en "Add Child Node" y buscamos "MeshInstance3D". Luego, asignamos una malla adecuada, como un ```BoxMesh```, para representar el suelo visualmente.
+3. También añadiremos un nodo hijo de tipo ```MeshInstance3D``` para darle una apariencia visual al terreno. Para esto, seleccionamos el nodo "Ground", hacemos clic en "Add Child Node" y buscamos "MeshInstance3D".
+4. Por último, asignamos una malla adecuada, como un ```BoxMesh```, para representar el suelo visualmente. Que añadiremos desde el inspector de propiedades del nodo `MeshInstance3D` en la sección de "Mesh". Hacemos clic en el botón de edición junto a la malla asignada y seleccionamos `BoxMesh` para darle una apariencia visual al terreno.
 
 
 Después de esto la estructura de nuestro nodo "Ground" debería verse así:
