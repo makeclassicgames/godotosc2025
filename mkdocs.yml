@@ -52,5 +52,17 @@ nav:
           - Win: 3d/win.md
     
   - VR:
-      - Introducción a VR: intro_vr.md
+      - Introducción a VR: vr/intro_vr.md
+      - Open XR: vr/openxr.md
+      - Instalación y Configuración: vr/install_config.md
+      - Primeros pasos en VR: vr/firststeps_vr.md
+      - Interacción en VR: vr/interaction_vr.md
+      - juego en VR:
+            - Introducción al juego VR: vr/game_vr.md
+            - Creación del Proyecto: vr/create_project_vr.md
+            - Jugador en VR: vr/player_vr.md
+            - Movimiento en VR: vr/movement_vr.md
+            - Interacción en VR: vr/interaction_game_vr.md
+            - UI en VR: vr/ui_vr.md
+            - Fin de la partida en VR: vr/game_over_vr.md
   - Recursos: resources.md

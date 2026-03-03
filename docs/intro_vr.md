@@ -1,3 +1,0 @@
-# Introducción a VR con Godot
-
-En construcción...
