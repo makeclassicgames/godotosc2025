@@ -38,6 +38,10 @@ Podrás observar un error al añadir esta configuración; debido a que no se enc
 !!! warning
     Podrás observar un mensaje de aviso que se requieren las texturas ETC2 para Android. Esto se debe a que Android requiere que las texturas estén en un formato específico para ser compatibles con VR. Para solucionar esto, iremos a **Project > Project Settings > Rendering > Quality** y activaremos la opción **ETC2 Textures**. Esto asegurará que nuestras texturas sean compatibles con Android y VR.
 
+También es importante activar la opción de **Gradle Build** en la configuración de exportación para Android, ya que esto facilitará el proceso de construcción y despliegue de nuestra aplicación en el dispositivo VR.
+
+Para acabar, en el apartado **XR Features** seleccionaremos la opción **OpenXR** para asegurarnos de que nuestra aplicación sea compatible con el dispositivo VR que vamos a utilizar.
+
 ### Instalación del Plugin para OpenXR
 
 Para continuar, vamos a instalar el plugin para OpenXR en nuestro proyecto. Para ello, iremos a **AssetLib** y buscaremos el plugin de _OpenXR Vendors Plugin V4_ para Godot. Una vez encontrado, lo instalaremos en nuestro proyecto, pulsando descargar, y posteriormente el botón de instalar.
@@ -53,9 +57,22 @@ Ahora, vamos a activar las opciones concretas para nuestro dispositivo VR (Meta 
 
 ![Meta Quest Support](../img/metaquestfeatures.png)
 
+!!! note
+    Aunque a partir de la versión 4.6 de Godot ya no es necesario, es recomendable usar este plugin para ver las opciones concretas para cada dispositivo VR y asegurarnos de que nuestra aplicación sea compatible con el dispositivo que estamos utilizando para desarrollar nuestras experiencias de VR.
+
+Para activar las opciones propias de Meta Quest, ve al apartado de **XR Features** y activa la opción de **Enable Meta Plugin**. Esto asegurará que tu aplicación sea compatible con las gafas de realidad virtual Meta Quest y pueda aprovechar sus características específicas.
+
 ## Desplegar en el dispositivo VR
 
 Para desplegar en el dispositivo VR, conectaremos nuestro dispositivo Meta Quest 2 a nuestro ordenador mediante un cable USB. Asegúrate de que el dispositivo esté en modo de desarrollo y que hayas aceptado la conexión desde el dispositivo.
 
+!!! info
+    Puede ser necesario que necesites modificar el espacio de color; para ello, ve a las opciones del proyecto y en la sección de **Open XR** selecciona el espacio de color **RC709**. Esto asegurará que los colores se muestren correctamente en el dispositivo VR.
+
+Para instalar la aplicación en el dispositivo VR, basta con pulsar la opción de **Remote Deploy** en la parte superior derecha del editor de Godot, seleccionar la configuración de exportación para Android que hemos creado anteriormente y pulsar el botón de desplegar. Esto compilará tu aplicación y la instalará en el dispositivo VR para que puedas probarla.
+
 !!! note
     Puede que necesites instalar los controladores USB específicos para tu dispositivo VR para que sea detectado por ADB Puedes encontrar más información sobre cómo instalar los controladores USB para tu dispositivo VR en la [documentación oficial del fabricante](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
+
+!!! warning
+    Puede que ocurra un error a la hora de ejecutar la aplicación en el dispositivo VR; no te preocupes puedes encontrar tu aplicación en el dispositivo VR en el apartado de "Unknown Sources" o "Fuentes desconocidas". Esto se debe a que la aplicación no está firmada con una clave de firma válida, lo cual es necesario para instalar aplicaciones en dispositivos Android. Para solucionar esto, puedes generar una clave de firma utilizando Android Studio y configurar tu proyecto de Godot para usar esa clave de firma al exportar tu aplicación para Android. Esto permitirá que tu aplicación sea instalada correctamente en el dispositivo VR sin mostrar el error de "Unknown Sources".
