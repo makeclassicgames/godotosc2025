@@ -69,7 +69,7 @@ Para desplegar en el dispositivo VR, conectaremos nuestro dispositivo Meta Quest
 !!! info
     Puede ser necesario que necesites modificar el espacio de color; para ello, ve a las opciones del proyecto y en la sección de **Open XR** selecciona el espacio de color **RC709**. Esto asegurará que los colores se muestren correctamente en el dispositivo VR.
 
-Para instalar la aplicación en el dispositivo VR, basta con pulsar la opción de **Remote Deploy** en la parte superior derecha del editor de Godot, seleccionar la configuración de exportación para Android que hemos creado anteriormente y pulsar el botón de desplegar. Esto compilará tu aplicación y la instalará en el dispositivo VR para que puedas probarla.
+Para instalar la aplicación en el dispositivo VR, basta con pulsar la opción de **Remote Deploy** (Activa la opción de **Monitor Android Devices**) en la parte superior derecha del editor de Godot, seleccionar la configuración de exportación para Android que hemos creado anteriormente y pulsar el botón de desplegar. Esto compilará tu aplicación y la instalará en el dispositivo VR para que puedas probarla.
 
 !!! note
     Puede que necesites instalar los controladores USB específicos para tu dispositivo VR para que sea detectado por ADB Puedes encontrar más información sobre cómo instalar los controladores USB para tu dispositivo VR en la [documentación oficial del fabricante](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
