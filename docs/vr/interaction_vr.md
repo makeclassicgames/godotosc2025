@@ -37,7 +37,10 @@ Para acabar esta sección, vamos a añadir la funcionalidad de movimiento y giro
 
 Comenzaremos por el movimiento; para ello, vamos a añadir una nueva escena a nuestro nodo del controlador izquierdo. Añadiremos una escena instanciada llamada **move_direct.tscn**. Esto añadirá la posibilidad de movimiento.
 
-También añadiremos la funcionalidad de giro; para ello, vamos a añadir otra escena al controlador derecho llamada *move_turn.tscn**. Esto añadirá la posibilidad de giro.
+También añadiremos la funcionalidad de giro; para ello, vamos a añadir otra escena al controlador derecho llamada **move_turn.tscn**. Esto añadirá la posibilidad de giro.
+
+!!! note
+    Por defecto el movimiento se realiza "por pasos"; por lo que podemos hacer que el giro sea más suave activando la opción de "smooth" en la propiedad mode del nodo move_turn. Esto hará que el giro sea más suave y fluido, lo que puede mejorar la experiencia de VR para algunos usuarios.
 
 También podemos añadir otras funcionalidades como la de teletransporte, para ello, añadiremos la escena **teleport.tscn** a uno de los controladores. Esto añadirá la posibilidad de teletransporte a nuestra escena de VR.
 
