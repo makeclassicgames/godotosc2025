@@ -9,6 +9,6 @@ Nuestro juego que llamaremos "Shooter Volter" consistirá en una escena en la qu
 Para este juego, nos centraremos en la creación del escenario y la inclusión de modelos externos que incluiremos en nuestra escena. Para ello, utilizaremos el formato de archivo .fbx, que es un formato de archivo 3D que es compatible con Godot y que nos permitirá importar modelos 3D de forma sencilla.
 
 <video autoplay loop muted>
-  <source src="/video/video_vr.mp4" type="video/mp4" >
+  <source src="/godotosc2025/video/video_vr.mp4" type="video/mp4" >
   Your browser does not support the video tag.
 </video>
