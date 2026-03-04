@@ -11,7 +11,7 @@ Comenzaremos por activar las opciones de VR en nuestro proyecto. Para ello, irem
 
 ![Enable XR](../img/xrenabled.png)
 
-Como vemos en la anterior figura, tenemos que reiniciar el proyecto para que los cambios surtan efecto. Una vez reiniciado, volveremos a la sección de **XR** en las opciones del proyecto y veremos que ahora tenemos una nueva opción llamada **XR Interface**. Aquí es donde seleccionaremos la API de VR que queremos utilizar.
+Como vemos en la anterior figura, tenemos que reiniciar el proyecto para que los cambios surtan efecto. Una vez reiniciado, volveremos a la sección de **XR** en las opciones del proyecto y veremos que ahora tenemos una nueva opción llamada **OpenXR**. Aquí es donde seleccionaremos la API de VR que queremos utilizar.
 
 Ahora, vamos a activar los shaders para XR. Para ello, iremos a **Project > Project Settings > XR > Shaders** y activaremos la opción **Enable**, y volvemos a reiniciar el proyecto. Esto permitirá que los shaders de nuestro proyecto sean compatibles con VR.
 
@@ -42,6 +42,10 @@ También es importante activar la opción de **Gradle Build** en la configuraci�
 
 Para acabar, en el apartado **XR Features** seleccionaremos la opción **OpenXR** para asegurarnos de que nuestra aplicación sea compatible con el dispositivo VR que vamos a utilizar.
 
+Para activar las opciones propias de Meta Quest, activa la opción de **Enable Meta Plugin**. Esto asegurará que tu aplicación sea compatible con las gafas de realidad virtual Meta Quest y pueda aprovechar sus características específicas.
+
+![OpenXR Export Settings](../img/exportopenxr.png)
+
 ### Instalación del Plugin para OpenXR
 
 Para continuar, vamos a instalar el plugin para OpenXR en nuestro proyecto. Para ello, iremos a **AssetLib** y buscaremos el plugin de _OpenXR Vendors Plugin V4_ para Godot. Una vez encontrado, lo instalaremos en nuestro proyecto, pulsando descargar, y posteriormente el botón de instalar.
@@ -59,8 +63,6 @@ Ahora, vamos a activar las opciones concretas para nuestro dispositivo VR (Meta 
 
 !!! note
     Aunque a partir de la versión 4.6 de Godot ya no es necesario, es recomendable usar este plugin para ver las opciones concretas para cada dispositivo VR y asegurarnos de que nuestra aplicación sea compatible con el dispositivo que estamos utilizando para desarrollar nuestras experiencias de VR.
-
-Para activar las opciones propias de Meta Quest, ve al apartado de **XR Features** y activa la opción de **Enable Meta Plugin**. Esto asegurará que tu aplicación sea compatible con las gafas de realidad virtual Meta Quest y pueda aprovechar sus características específicas.
 
 ## Desplegar en el dispositivo VR
 
