@@ -4,17 +4,17 @@ Una vez instalado y configurado el entorno, vamos a proceder a trabajar con nues
 
 Vamos a añadir los siguientes Nodos a nuestra escena, como hijos del nodo "Main":
 
-* **ARVROrigin**: Este nodo es el punto de origen para la realidad virtual. Es el nodo raíz de nuestra escena de VR y se encargará de manejar la posición y orientación del usuario en el espacio virtual.
+* **XROrigin**: Este nodo es el punto de origen para la realidad virtual. Es el nodo raíz de nuestra escena de VR y se encargará de manejar la posición y orientación del usuario en el espacio virtual.
 
-* **ARVRCamera**: Este nodo es la cámara que se utilizará para renderizar la escena en VR. Se debe colocar como hijo del nodo ARVROrigin para que siga la posición y orientación del usuario.
+* **XRCamera**: Este nodo es la cámara que se utilizará para renderizar la escena en VR. Se debe colocar como hijo del nodo `XROrigin` para que siga la posición y orientación del usuario.
 
-* 2 **ARVRController**: Estos nodos representan los controladores de VR que el usuario utilizará para interactuar con la escena. Se deben colocar como hijos del nodo ARVROrigin para que sigan la posición y orientación del usuario.
+* 2 **XRController**: Estos nodos representan los controladores de VR que el usuario utilizará para interactuar con la escena. Se deben colocar como hijos del nodo `XROrigin` para que sigan la posición y orientación del usuario.
 
 Ahora configuraremos los controladores; estableciendo la propiedad **tracker** a "left_hand" para el primer controlador y "right_hand" para el segundo controlador. Esto permitirá que los controladores sigan la posición y orientación de las manos del usuario en el espacio virtual.
 
-Ahora, estableceremos la posición de la cámara para que esté a una altura adecuada para la experiencia de VR. Para ello, seleccionaremos el nodo ARVRCamera y estableceremos su posición en el eje Y a 1.6 metros, que es una altura promedio para la vista de un usuario en VR.
+Ahora, estableceremos la posición de la cámara para que esté a una altura adecuada para la experiencia de VR. Para ello, seleccionaremos el nodo XRCamera y estableceremos su posición en el eje Y a 1.6 metros, que es una altura promedio para la vista de un usuario en VR.
 
-Y por otro lado, estableceremos la posición de los controladores para que estén a una altura adecuada para la experiencia de VR. Para ello, seleccionaremos cada uno de los nodos ARVRController y estableceremos su posición de cada uno de los controladores a:
+Y por otro lado, estableceremos la posición de los controladores para que estén a una altura adecuada para la experiencia de VR. Para ello, seleccionaremos cada uno de los nodos XRController y estableceremos su posición de cada uno de los controladores a:
 
 * Controlador izquierdo: (-0.5, 1.0, -0.5)
 * Controlador derecho: (0.5, 1.0, -0.5)
