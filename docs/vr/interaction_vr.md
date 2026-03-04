@@ -16,7 +16,7 @@ Comenzaremos añadiendo un suelo; añadimos al nodo raíz un nodo de tipo **Stat
 
 ## Manos
 
-Ahora vamos a añadir un modelo de manos a nuestro proyecto. Para ello, vamos a utilizar un modelo de manos que se encuentra en el Plugin de Godot XR Tools. Para ello, vamos a añadir una escena instanciada que encontraremos en nuestro proyecto en la ruta **res://addons/godot_xr_tools/Scenes/Hand_rigth.tscn**. Esta escena contiene un modelo de manos que se puede utilizar para representar las manos del usuario en VR.
+Ahora vamos a añadir un modelo de manos a nuestro proyecto. Para ello, vamos a utilizar un modelo de manos que se encuentra en el Plugin de Godot XR Tools. Para ello, vamos a añadir una escena instanciada que encontraremos en nuestro proyecto en la ruta **res://addons/godot_xr_tools/Scenes/Hand_right.tscn**. Esta escena contiene un modelo de manos que se puede utilizar para representar las manos del usuario en VR.
 
 ![Manos en VR](../img/manos.png)
 
@@ -40,7 +40,7 @@ Comenzaremos por el movimiento; para ello, vamos a añadir una nueva escena a nu
 También añadiremos la funcionalidad de giro; para ello, vamos a añadir otra escena al controlador derecho llamada **move_turn.tscn**. Esto añadirá la posibilidad de giro.
 
 !!! note
-    Por defecto el movimiento se realiza "por pasos"; por lo que podemos hacer que el giro sea más suave activando la opción de "smooth" en la propiedad mode del nodo move_turn. Esto hará que el giro sea más suave y fluido, lo que puede mejorar la experiencia de VR para algunos usuarios.
+    Por defecto el movimiento se realiza "por pasos"; por lo que podemos hacer que el giro sea más suave activando la opción de "smooth" en la propiedad mode del nodo _move_turn_. Esto hará que el giro sea más suave y fluido, lo que puede mejorar la experiencia de VR para algunos usuarios.
 
 También podemos añadir otras funcionalidades como la de teletransporte, para ello, añadiremos la escena **teleport.tscn** a uno de los controladores. Esto añadirá la posibilidad de teletransporte a nuestra escena de VR.
 

@@ -23,9 +23,10 @@ Para continuar, vamos a configurar nuestro proyecto para desplegarlo en Android,
 
 Ahora, vamos a instalar las herramientas de desarrollo para Android necesarias; necesitaremos:
 
-* OpenJDK 11 o superior.
-* Android SDK.
+* OpenJDK 17 (Recomendado).
+* Android SDK y build Tools.
 * Android NDK.
+* CMake.
 
 Todos estos componentes se pueden instalar a través de _Android Studio_, que es la forma más sencilla de obtenerlos. Una vez instalado Android Studio, abrelo y ve a **Configure > SDK Manager** para instalar el SDK y el NDK. Asegúrate de instalar la versión del NDK que sea compatible con tu versión de Godot.
 
