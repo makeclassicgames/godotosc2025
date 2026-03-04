@@ -4,7 +4,7 @@ En esta sección, vamos a explorar cómo implementar la interacción en VR utili
 
 En la anterior sección, hemos instalado un plugin llamado **Godot XR Vendors Plugin V4** que nos permite utilizar OpenXR en nuestro proyecto de Godot. Este plugin es esencial para habilitar la compatibilidad con una amplia gama de dispositivos VR, incluyendo las gafas Meta Quest 2 que estamos utilizando para este curso.
 
-Para esta sección, vamos a añadir un nuevo plugin que añade más funcionalidad y formas de moverse e interactuar con el entorno; este plugin se llamada **Godot XR Tools** y lo puedes encontrar en el siguiente enlace: [Godot XR Tools](https://github.com/GodotVR/godot-xr-tools/releases) y lo instalaremos en nuestro proyecto, pulsando descargar, y posteriormente el botón de instalar. (En nuestro caso la versión Quest).
+Para esta sección, vamos a añadir un nuevo plugin que añade más funcionalidad y formas de moverse e interactuar con el entorno; este plugin se llamada **Godot XR Tools** y lo puedes encontrar en el siguiente enlace: [Godot XR Tools](https://github.com/GodotVR/godot-xr-tools/releases) y lo instalaremos en nuestro proyecto, pulsando descargar, y posteriormente el botón de instalar. (El fichero que se llama _godot_xr_tools.zip_).
 
 !!! info
     Para instalarlo manualmente, puedes descargar el archivo .zip desde el enlace anterior y extraerlo en la carpeta de tu proyecto de Godot. en la carpeta **addons** de tu proyecto. Puede dar algunos errores pero no nos debería afectar a la funcionalidad del plugin. También debes activar el plugin en **Project > Project Settings > Plugins** y activar la opción **Godot XR Tools** para que el plugin esté activo en tu proyecto. Una vez hecho esto, ya podemos utilizar las funcionalidades que nos ofrece este plugin para implementar la interacción en VR en nuestra escena.
@@ -16,7 +16,7 @@ Comenzaremos añadiendo un suelo; añadimos al nodo raíz un nodo de tipo **Stat
 
 ## Manos
 
-Ahora vamos a añadir un modelo de manos a nuestro proyecto. Para ello, vamos a utilizar un modelo de manos que se encuentra en el Plugin de Godot XR Tools. Para ello, vamos a añadir una escena instanciada que encontraremos en nuestro proyecto en la ruta **res://addons/godot_xr_tools/Scenes/Hand_r.tscn**. Esta escena contiene un modelo de manos que se puede utilizar para representar las manos del usuario en VR.
+Ahora vamos a añadir un modelo de manos a nuestro proyecto. Para ello, vamos a utilizar un modelo de manos que se encuentra en el Plugin de Godot XR Tools. Para ello, vamos a añadir una escena instanciada que encontraremos en nuestro proyecto en la ruta **res://addons/godot_xr_tools/Scenes/Hand_rigth.tscn**. Esta escena contiene un modelo de manos que se puede utilizar para representar las manos del usuario en VR.
 
 ![Manos en VR](../img/manos.png)
 

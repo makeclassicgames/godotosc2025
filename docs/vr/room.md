@@ -2,6 +2,9 @@
 
 En primer lugar, vamos a añadir a nuestra escena principal la habitación en la que se desarrollará nuestro juego de VR. Para ello, vamos a utilizar la escena que hemos importado en la sección de _Importar Recursos_, que contiene una habitación con iluminación.
 
+!!! warning
+    Para este paso puedes borrar el nodo de tipo MeshInstance3D que añadimos en la sección de primeros pasos con VR, ya que este nodo era solo para probar que el VR funcionaba correctamente, y ahora vamos a añadir la habitación que ya tiene un modelo 3D y una iluminación adecuada para nuestro juego de VR.
+
 Para añadir la habitación a nuestra escena principal, basta con arrastrar y soltar el archivo room.tscn de la habitación en el editor de Godot. Esto añadirá automáticamente la habitación a nuestra escena principal, y podremos abrirla para editarla y adaptarla a nuestro juego de VR.
 
 ![Habitación en la escena principal](../img/room_3d.png)
