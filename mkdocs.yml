@@ -59,10 +59,9 @@ nav:
       - Interacción en VR: vr/interaction_vr.md
       - juego en VR:
             - Introducción al juego VR: vr/game_vr.md
-            - Creación del Proyecto: vr/create_project_vr.md
-            - Jugador en VR: vr/player_vr.md
-            - Movimiento en VR: vr/movement_vr.md
-            - Interacción en VR: vr/interaction_game_vr.md
-            - UI en VR: vr/ui_vr.md
-            - Fin de la partida en VR: vr/game_over_vr.md
+            - Importar Recursos: vr/import_resources.md
+            - Importar Sala (Room): vr/room.md
+            - Dianas (Targets): vr/targets.md
+            - Arma: vr/weapon.md
+            - Disparos: vr/shots_vr.md
   - Recursos: resources.md
